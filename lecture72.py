@@ -6,7 +6,7 @@ textFormat="My food"
 def showBill():
     print(textFormat.center(20,"-"))
     for number in range(len(menuList)):
-        print(menuList[number][0])
+        print(menuList[number][0],menuList[number][1])
         total=0
         for number in range(len(menuList)):
             total=total+int(menuList[number][1])
