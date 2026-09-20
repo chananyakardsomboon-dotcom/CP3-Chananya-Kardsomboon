@@ -1,0 +1,41 @@
+'''
+Lecture 73 : การนำ Collection ต่าง ๆ ไปประยุกต์ใช้งาน (3)
+'''
+SystemMenu={"ข้าวหมกไก่":45,"ข้าวมันไก่":40,"ข้าวมันไก่ผสม":50,"ข้าวมันไก่พิเศษ":45}
+menuList=[] 
+textFormat="My food"
+def showBill():
+    print(textFormat.center(20,"-"))
+    for number in range(len(menuList)):
+        print(menuList[number][0],menuList[number][1])
+        total=0
+        for number in range(len(menuList)):
+            total=total+int(menuList[number][1])
+    print("ยอดรวมสินค้า",total)
+    totalprice=total
+    vat=7
+    result=totalprice+(totalprice*vat/100)
+    print("ยอดสุทธิรวม vat",result)
+while True:
+    menuName=input("Please Enter Menu :")
+    if menuName.lower()=="exit":
+        break
+    else:
+        
+        menuList.append([menuName,SystemMenu[menuName]])
+print(menuList)
+showBill()
+
+
+
+
+
+
+
+
+
+        
+       
+
+
+
