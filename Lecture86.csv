@@ -1,0 +1,14 @@
+Lecture86 Homework CSV file:
+Create a CSV file with three columns to store the following data:
+1. Friend's name
+2. Friend's favorite movie
+3. Friend's favorite pet
+Include 4–5 rows of data, then submit it via GitHub.
+
+name,favorite movie,favorite pet
+Tarasa Lisbon,Titanic,Dog 
+Patrick Jane,Mentalist,Cat 
+Grace Van Pelt,Breaking bad,Rabbit
+Kimball Cho,Dexter,Horse
+Wayne Rigsby,Blacklist,Lizard 
+Chananya Kardsomboon,Mentalist,Cat
